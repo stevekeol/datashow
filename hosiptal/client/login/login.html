@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>医电园科技</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<script src="js/EventUtil.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo to-left">
+			<a href="" class="bold-text">
+				<b class="color-white">YDY</b><span class="color-black">tech</span>
+			</a>
+		</div>
+		<div class="navigate to-right ">
+			<a href="loginup.html" class="color-white bold-text">Login Up</a>
+		</div>
+	</header>
+
+	<section>
+		<center>
+			<div class="color-white systemId">
+				<h>浙医二院登录系统 V1.0</h>
+			</div>
+			<form method="post" id="logininForm" enctype='application/json' action='http://118.178.140.29:80'>
+				<table>
+				<tr>
+					<td>
+						<span class="">UserName</span>
+					</td>
+					<td>
+						<div class="username">
+							<input class="color-white" type="text" name="UserName" value="" placeholder="" required></input>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="">Password</span>
+					</td>
+					<td>
+						<div class="pw">
+							<input class="color-white" type="password" name="Password" value="" placeholder="" required></input>
+						</div>
+					</td>
+				</tr>
+				</table>
+				<div class="forget">
+					<a href="" class="color-white">
+						<p>- Forget your UserName or Password ? -</p>
+					</a>
+				</div>
+				<div class="ok">
+					<input class="color-white" type="submit" value="Submit"></input>
+				</div>
+			</form>
+		</center>
+	</section>
+
+	<footer>
+		<center>
+			<p class="color-link">
+				2017 &copy; ydytech.net
+			</p>
+		</center>
+	</footer>
+</body>
+</html>

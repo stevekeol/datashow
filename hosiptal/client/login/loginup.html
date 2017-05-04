@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>医电园</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    	<script src="js/login.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="logo to-left">
+				<a href="" class="bold-text">
+					<b class="color-white">YDY</b><span class="color-black">tech</span>
+				</a>
+			</div>
+			<div class="navigate to-right ">
+				<a href="login.html" class="color-white bold-text">Login In</a>
+			</div>
+		</header>
+
+		<section>
+			<center>
+				<form method="post" id="loginupForm" enctype='application/json' action='http://118.178.140.29:80'>
+					<table cellspacing="10">
+						<tr class="inscrire-id-label">
+							<td>
+								<span class="">ID</span>
+							</td>
+							<td>
+								<div class="inscrire-label">
+									<input class="inscrire-id-texte" type="text" value="HM00001001" disabled></input>
+								</div>
+							</td>
+						</tr>
+
+						<tr class="inscrire-nom-label">
+							<td>
+								<span class="">Name</span>
+							</td>
+							<td>
+								<div class="inscrire-nom">
+									<input class="inscrire-nom-texte" type="text" value=""></input>
+								</div>
+							</td>
+						</tr>
+
+						<tr class="inscrire-pw-label">
+							<td>
+								<span class="">Password</span>
+							</td>
+							<td>
+								<div class="inscrire-pw">
+									<input class="inscrire-pw-texte" type="password" value=""></input>
+								</div>
+							</td>
+						</tr>
+
+						<tr class="inscrire-conf-pw-label">
+							<td>
+								<span class="">Repassword</span>
+							</td>
+							<td>
+								<div class="inscrire-conf-pw">
+									<input class="inscrire-pw-texte" type="password" value=""></input>
+								</div>
+							</td>
+						</tr>
+
+<!-- 						<tr class="inscrire-domaine-label">
+							<td>
+								<span class="">Domaine</span>
+							</td>
+							<td>
+								<div class="inscrire-domaine">
+									<input class="inscrire-domaine-texte" type="text" value=""></input>
+								</div>
+							</td>
+						</tr> -->
+
+						<tr class="inscrire-phone-label">
+							<td>
+								<span class="">PhoneNumber</span>
+							</td>
+							<td>
+								<div class="inscrire-phone">
+									<input class="inscrire-phone-texte" type="text" value=""></input>
+								</div>
+							</td>
+						</tr>
+					</table>
+
+					<div class="ok">
+						<input class="color-white" type="submit" value="Submit"></input>
+					</div>
+				</form>
+			</center>
+		</section>
+
+		<footer class="inscripFooter">
+			<center>
+				<p class="color-link">
+					2017 &copy; ydytech.net
+				</p>
+			</center>
+		</footer>
+	</body>
+</html>

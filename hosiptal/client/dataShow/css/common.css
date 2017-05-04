@@ -1,0 +1,164 @@
+/* 
+* å…¬å…±CSS
+* ï¼æ³¨æ„
+* jspå¼•ç”¨æ—¶ï¼Œå¤´éƒ¨htmlå¼•ç”¨commonå°±å¥½ã€‚å…¶ä»–é¡µé¢ä¸è¦é‡å¤å¼•ç”¨ã€‚
+*/
+
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{color:#333;font-size:16px;font-family:"PingFang SC,Arial,Microsoft Yahei";}
+input,button,textarea,select,lable{outline: none;font-family:"Microsoft Yahei";}
+h1,h2,h3,h4,h5,h6{color:#000;}
+table{border-collapse: collapse;}
+img{border:none;vertical-align:center;-ms-interpolation-mode:bicubic}
+li{list-style:none;vertical-align: center;}
+a{text-decoration:none;outline:none;transition:color 0.5s;}
+a:hover{color:#e60012;}
+textarea{resize:none;overflow:auto;}
+ul li{list-style: none;}
+
+/*é¡µé¢ä¸»ä½“å®½åº¦ ä¸»ä½“æ¡†æž¶å…ƒç´ æ·»åŠ è¯¥ç±»*/
+.w{width:1200px; min-width:1200px;margin: 0 auto;padding-top:50px;}
+/*å…¬å…±æ¨¡å—ä¿®é¥°å›¾æ ‡ åœ¨ç›¸åº”çš„æ ‡ç­¾ä¸Šæ·»åŠ è¯¥ç±»*/
+.common_icon{display:block;background-image:url(../img/common_icon.png);background-repeat:no-repeat;}
+/*add by yangmm 2016å¹´3æœˆ29æ—¥01:55:12 åœ°å›¾ä¸Šæ–‡æœ¬å±‚ å¢žåŠ ä¸€ä¸ªå®šä½å°æ ‡å¿—*/
+.common_icon_black{display:block;background-image:url(../img/common_icon_black3.png);background-repeat:no-repeat;}
+
+/***********************å…¬å…±éƒ¨åˆ†**********************/
+/*å…¬å…±å¤´éƒ¨*/
+.header{width:600px;margin:0 auto;}
+.dropdown-menu li{
+	height:30px;
+}
+.dropdown{
+	cursor:pointer;
+}
+
+@media (max-width: 768px){
+    .header{width:100%;}
+}
+
+/*å…¬å…±åº•éƒ¨--PC*/
+.footer_i{width:100%;background-color:#1a1a1a;/*position: relative;bottom:0;*/padding-bottom:70px; display:block;z-index:10;}
+.footer_i .box{width:670px;margin:0 auto; height:50px;}
+.footer_i .box .left{float: left;line-height: 40px;height:50px;padding-right:30px;padding-left:50px;}
+.footer_i .box .left_cn{padding-left:110px;}
+
+.footer_i .box .right{float:left;font-size:12px;height:40px;border-left-color:#e5e5e5;border-left-width:1px;border-left-style:solid;padding-left:30px;margin-top:3px;}
+.footer_i .right span{color:#e5e5e5;font-size: 12px; line-height: 20px;}
+.footer_i .right .span_01{position:relative;padding-left: 20px;}
+.footer_i .right .span_01 i{position:absolute;background-position: 0 0;width:13px;height:18px;}
+.footer_i .right .span_02{position:relative;padding-left: 20px;}
+.footer_i .right .span_02 i{position:absolute;background-position: -18px 0;width:14px;height:12px;top:3px;left:-1px;}
+.footer_i .box .foot{clear:both;position:relative; color:#e5e5e5;font-size: 12px; text-align: center;height:70px;line-height:20px;text-decoration: none;}
+
+
+/* é¦–é¡µç‰¹æ®Šæ ·å¼åº•éƒ¨ --pc*/
+.bottoms{background-color:#1a1a1a;/*position: relative;bottom:0;*/ display:block;}
+.bottoms .box .left{float: left;line-height: 40px;height:50px;padding-right:30px;padding-left:50px;}
+.bottoms .box .left_cn{padding-left:200px;}
+.bottoms .box .right{float:left;font-size:12px;height:40px;border-left-color:#e5e5e5;border-left-width:1px;border-left-style:solid;padding-left:30px;margin-top:3px;}
+.bottoms .right span{color:#e5e5e5;font-size: 12px; line-height: 20px;}
+.bottoms .right .span_01{position:relative;padding-left: 20px;}
+.bottoms .right .span_01 i{position:absolute;background-position: 0 0;width:13px;height:18px;top:1px}
+.bottoms .right .span_02{position:relative;padding-left: 20px;}
+.bottoms .right .span_02 i{position:absolute;background-position: -18px 0;width:14px;height:12px;top:5px;left:-1px;}
+.bottoms .box .foot{clear:both;position:relative; color:#e5e5e5;font-size: 12px; text-align: center;height:60px;line-height:20px;text-decoration: none;}
+
+
+
+/*add by yangmm 2016å¹´3æœˆ29æ—¥20:34:57   FireFoxçš„CSS Hack   é’ˆå¯¹FoxFireæµè§ˆå™¨*/  
+@-moz-document url-prefix() {
+    .footer_i .right .span_01 i{
+        position:absolute;background-position: 0 0;width:13px;height:18px;margin-top: -17px;
+    }
+}
+
+/*å…¬å…±åº•éƒ¨--æ‰‹æœº*/
+.footer_phone{width:100%;background-color:#1a1a1a;/*position:relative; bottom:0;*/padding:20px 0px; display: none;}
+.footer_box{width:95%; margin:0 auto;}
+.footer_box p{color:#b2b2b2;font-size:12px; margin:0; text-align: center; letter-spacing:0;}
+.footer_phone img{margin:0 auto; display: block;}
+
+@media (max-width:980px){
+    .footer_i{display: none;}
+    .footer_phone{display: block;}
+	.sx1Menu{
+		display:block;
+	}
+}
+
+
+/*å…¬å…±åˆ†é¡µ*/
+.pageTest{ width: 610px; margin:0 auto; height: 50px; margin-top: 100px;    }
+.activP{
+      color: #5a5a5a!important;
+    }
+.pagingUl{
+  float:right;
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+.pagingUl li{
+  float: left;
+  width: 40px;
+  height: 30px;
+  list-style: 30px;
+  text-align: center;
+}
+.pagingUl li a{
+  text-decoration: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  padding: 0;
+  background: #fafafa;
+  color: #c8c8c8;
+  font-size: 1.125em;
+}
+
+/* add by yangmm 2016å¹´3æœˆ22æ—¥ ä¸Žtechnologyé¡µé¢gif å›¾ç‰‡å†²çªæ³¨é‡ŠæŽ‰
+ .prv, .next {
+  width: 30px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}*/
+.first, .last {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.sxMenu{
+	float:left;
+	height:50px;
+    line-height: 50px;
+	cursor:pointer;
+	margin-left:10px;
+}
+.sx1Menu{
+	padding-left:10px;
+	height:50px;
+	background-color: #333333;
+	cursor:pointer;
+	position: relative;
+    margin-top: 60px;
+}
+.selecteds{
+	color:#EA9B1F;
+}
+body *{
+    -webkit-animation: all .8s ease-out  both;
+    animation: all .8s ease-out  both;
+}
+
+body{font-family: "PingFang SC","Microsoft YaHei",Arial,"Helvetica Neue", Helvetica,  sans-serif;}

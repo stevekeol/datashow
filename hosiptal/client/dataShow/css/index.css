@@ -1,0 +1,164 @@
+/* 
+* é¦–é¡µCSS
+*/
+@import "1.css";
+@import "2.css";
+@import "3.css";
+@import "4.css";
+@import "1440.css";
+@import "1920.css";
+
+@charset "utf-8";
+.index_bg{background: url(../img/index/index_bg_bak.jpg);background-size: initial;background-repeat:no-repeat; background-color: #000000;}
+.content_i{height:600px;}
+
+.content_i .box{position: relative;top:20%;line-height: 4px;text-align:center;}
+.content_i .banner_left{float:left;}
+.content_i .banner_right{float:right;}
+/*.content_i .box span{font-size: 40px;color:#fff;}
+.content_i .box .change_color{color:#ff7000;font-size: 40px;}*/
+.content_i .aboutphone{border:1px solid #fff; border-radius: 5px; color:#fff;padding:5px 20px; display:none; clear: left;}
+
+
+/*@media (max-width:960px){
+    .content_i{height:600px;}
+    .content_i .banner_left{display: none;}
+    .content_i .banner_right{display:none;}
+    .content_i .box{padding-left:10%; text-align: left;}
+    .w{width:100%; min-width:100%;}
+}
+
+@media (max-width:640px){
+    .w{width:100%;min-width:100%;}
+    .content_i{height:600px;}
+    .content_i .banner_left{display: none;}
+    .content_i .banner_right{display:none;}
+    .content_i .box{text-align:left; top:10%;padding-left:10%;}
+    .content_i .box span{display: block;line-height:50px;}
+    .content_i .aboutphone{border:1px solid #fff; border-radius: 5px; color:#fff;padding:5px 20px; display: inline!important; clear: left;}
+    .index_bg{background-position: -550px -200px;}
+}*/
+
+@media (max-width:1119px){
+	.index_bg{background-size: cover;}
+    .content_i{height:600px;}
+    .w {
+	    width: 900px;
+	    min-width: 900px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.wcn{
+		width: 740px;
+	    min-width: 740px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	/*æ ‡é¢˜å­—ä½“å¤§å°*/
+	.content_i .box span{font-size: 30px;color:#fff;}
+	.content_i .box .change_color{color:#ff7000;font-size: 30px;}
+}
+
+/*1152åˆ†è¾¨çŽ‡*/
+@media (min-width:1120px){
+    .index_bg{background-size: cover;}
+    .content_i{height:600px;}
+    .w {
+	    width: 950px;
+	    min-width: 950px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.wcn{
+		width: 760px;
+	    min-width: 760px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	/*æ ‡é¢˜å­—ä½“å¤§å°*/
+	.content_i .box span{font-size: 33px;color:#fff;}
+	.content_i .box .change_color{color:#ff7000;font-size: 33px;}
+}
+
+/*1366åˆ†è¾¨çŽ‡*/
+@media (min-width:1259px){
+    .index_bg{background-size: cover;}
+    .content_i{height:650px;}
+    /*add by yangmm 2016å¹´4æœˆ1æ—¥10:01:15  é€‚é…1920åˆ†è¾¨çŽ‡ä¸‹  é¦–é¡µä¸­é—´å¤§æ ‡è¯­æ¢è¡Œé—®é¢˜ã€‚*/
+    .w {
+	    width: 1040px;
+	    min-width: 1040px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.wcn{
+		width: 840px;
+	    min-width: 840px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	/*æ ‡é¢˜å­—ä½“å¤§å°*/
+	.content_i .box span{font-size: 40px;color:#fff;}
+	.content_i .box .change_color{color:#ff7000;font-size: 40px;}
+}
+/*1440åˆ†è¾¨çŽ‡*/
+@media (min-width:1403px){
+    /*.index_bg{background-position: 0px -150px;}*/
+    .index_bg{background-size: cover;}
+    .content_i{height:750px;}
+    /*add by yangmm 2016å¹´4æœˆ1æ—¥10:01:15  é€‚é…å››ç§åˆ†è¾¨çŽ‡*/
+    .w {
+	    width: 1060px;
+	    min-width: 1060px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.wcn{
+		width: 840px;
+	    min-width: 840px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	/*æ ‡é¢˜å­—ä½“å¤§å°*/
+	.content_i .box span{font-size: 41px;color:#fff;}
+	.content_i .box .change_color{color:#ff7000;font-size: 41px;}
+}
+/*1920åˆ†è¾¨çŽ‡*/
+@media (min-width:1680px){
+    .index_bg{background-position: 0px 0px;}
+    .content_i{height:900px;}
+    /*add by yangmm 2016å¹´4æœˆ1æ—¥10:01:15  é€‚é…1920åˆ†è¾¨çŽ‡ä¸‹  é¦–é¡µä¸­é—´å¤§æ ‡è¯­æ¢è¡Œé—®é¢˜ã€‚*/
+    .w {
+	    width: 1250px;
+	    min-width: 1250px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.wcn{
+		width: 930px;
+	    min-width: 930px;
+	    margin: 0 auto;
+	    padding-top:50px;
+	}
+	.content_i .box span{font-size: 55px;color:#fff;}
+	.content_i .box .change_color{color:#ff7000;font-size: 55px;}
+}
+
+/*add by yangmm 2016å¹´3æœˆ23æ—¥22:58:26  
+ * åŠ¨ç”»æ•ˆæžœ  jsæŽ§åˆ¶åŠ ä¸Šanimate æ ·å¼  å›¾ç‰‡é€æ˜Žåº¦ä»Ž0åˆ°1 æ˜¾ç¤ºå‡ºæ¥ 
+ * ä½ç½®ç”±åŽŸæ¥çš„é™æ€ä½ç½®ç§»åŠ¨åˆ°å½“å‰*/
+#transition_div.animate{
+     position: relative;
+     top: 30%;
+     opacity: 1;
+}	
+#transition_div {
+		position: relative;
+     	top: 35%;
+     	opacity: 0;
+	    -webkit-transition: all 1s cubic-bezier(.54,1,.87,.99);
+	    -webkit-transition: all 1s cubic-bezier(.54,1.11,.87,.99);
+	    -moz-transition: all 1s cubic-bezier(.54,1.11,.87,.99);
+	    -o-transition: all 1s cubic-bezier(.54,1.11,.87,.99);
+	    -ms-transition: all 1s cubic-bezier(.54,1.11,.87,.99);
+}

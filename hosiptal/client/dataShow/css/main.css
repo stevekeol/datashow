@@ -1,0 +1,38 @@
+.main {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				bottom: 150px;
+				right: 0px;
+				overflow: hidden;
+			}
+			
+			.bottoms {
+				position: absolute;
+				left: 0px;
+				bottom: 0px;
+				right: 0px;
+				height: 150px;
+			}
+			
+			.bottoms {
+				_height: 150px;
+				_margin-top: 150px;
+				_position: relative;
+				_top: 0;
+				_right: 0;
+				_bottom: 0;
+				_left: 0;
+			}
+			
+			.main {
+				_height: 100%;
+				_margin-left: 0px;
+				_position: relative;
+				_top: 0;
+				_right: 0;
+				_bottom: 0;
+				_left: 0;
+			}
+
+body{font-family: "PingFang SC","Microsoft YaHei",Arial,"Helvetica Neue", Helvetica,  sans-serif;}
